@@ -1,0 +1,10 @@
+/** Mirrors Tailwind's default breakpoints (min-width, px). */
+export const BREAKPOINTS = {
+  sm: 640,
+  md: 768,
+  lg: 1024,
+  xl: 1280,
+  "2xl": 1536,
+} as const;
+
+export type Breakpoint = "mobile" | "tablet" | "desktop";
